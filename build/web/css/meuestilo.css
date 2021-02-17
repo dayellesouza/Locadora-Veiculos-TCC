@@ -1,0 +1,123 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 20/11/2018, 13:51:41
+    Author     : Dayelle
+*/
+
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    background-color: #000000;
+}
+
+.overlay {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
+.banner-area {
+  background: url(../img/header-bg.jpg) center;
+  background-size: cover;
+}
+
+.banner-area .overlay-bg {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+@media (max-width: 767px) {
+  .fullscreen {
+    height: 100% !important;
+  }
+}
+
+.banner-content {
+  text-align: left;
+}
+
+.banner-content h1 {
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 1em;
+  margin-top: 20px;
+}
+
+.banner-content h1 span {
+  font-weight: 700;
+}
+
+@media (max-width: 991.98px) {
+  .banner-content h1 {
+    font-size: 36px;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .banner-content h1 br {
+    display: none;
+  }
+}
+
+@media (max-width: 1199.98px) {
+  .banner-content h1 {
+    font-size: 45px;
+  }
+}
+
+@media (max-width: 480px) {
+  .banner-content h1 {
+    font-size: 32px;
+  }
+}
+
+.banner-content h6 {
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+@media (max-width: 1280px) {
+  .banner-content br {
+    display: none;
+  }
+}
+
+@media (max-width: 763px) {
+  .banner-content h6, .banner-content p, .banner-content a {
+    display: none;
+  }
+  .banner-content h1 {
+    text-align: center;
+    padding-top: 50px;
+    display: block !important;
+  }
+}
+
+.header-right {
+  background-color: rgba(32, 46, 69, 0.4);
+  border: 1px solid #4b5263;
+  padding: 50px;
+}
+
+@media (max-width: 413px) {
+  .header-right {
+    padding: 20px;
+  }
+}
+
+.header-right .default-select .nice-select {
+  width: 100%;
+  border-radius: .25rem;
+}
