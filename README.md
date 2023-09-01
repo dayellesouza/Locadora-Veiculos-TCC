@@ -1,4 +1,14 @@
-# Locadora-Veiculos-TCC
-Projeto desenvolvido com HTML, CSS, JSP, DB Postgresql, Java para o Projeto Final de Curso - 4º semestre - @UMC
+# PFC - Locadora de Veiculos
 
-<a href='./web/index.html'>Página Inicial</a>
+Desenvolvido para o Projeto Final de Curso - 4º semestre - @UMC
+
+## Stack utilizada
+
+**Front-end:** HTML, CSS, Bootstrap
+
+**Back-end:** Java, JSP
+
+**Banco de dados:** Postgresql
+
+
+Link para a <a href='./web/index.html'>Página Inicial</a>
